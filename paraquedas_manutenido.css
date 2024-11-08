@@ -1,0 +1,45 @@
+/* Estilos para o corpo */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos para a tabela */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+/* Estilos para o botão de detalhes */
+input[type="submit"] {
+    padding: 8px 12px;
+    margin-top: 10px;
+}
+
+/* Estilos para o botão de voltar */
+.button {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #020202;
+    padding: 10px 20px;
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.button:hover {
+    background-color: #eedf14;
+}
